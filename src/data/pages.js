@@ -687,7 +687,6 @@ module.exports = function() {
      exercise: [
        {
           type: 'linker',
-          image: '02',
           title: 'Uniti cuvantul cu desenul corespunzator',
           trigger: {
             button: {
@@ -704,289 +703,412 @@ module.exports = function() {
           },
           data: [
             {
-              identifier: 'ghiozdan',
-              itemLabel: 'Ghiozdan',
-              model: '',
-              position: {
-                top: '7%',
-                left: '12%',
-                width: '12%',
-                height: 'auto'
-              },
-              image: {
-                src: 'ghiozdan.png'
-              },
-              solution: 'portocaliu',
-              sourceAnchors: [],
-              targetAnchors: ["RightMiddle"]
-            },
-            {
-              identifier: 'creion-de-ceara',
-              itemLabel: 'Creion de ceara',
-              model: '',
-              position: {
-                top: '32%',
-                left: '12%',
-                width: '12%',
-                height: 'auto'
-              },
-              image: {
-                src: 'creion-ceara.png'
-              },
-              solution: 'portocaliu',
-              sourceAnchors: [],
-              targetAnchors: ["RightMiddle"]
-            },
-            {
-              identifier: 'guma-de-sters',
-              itemLabel: 'Guma de sters',
-              model: '',
-              position: {
-                top: '70%',
-                left: '12%',
-                width: '12%',
-                height: 'auto'
-              },
-              image: {
-                src: 'guma-sters.png'
-              },
-              sourceAnchors: [],
-              targetAnchors: ["RightMiddle"],
-              solution: 'portocaliu',
-              solutionImg: {
-                src: 'guma-sters-colorata.png'
-              }
-            },
-            {
-              identifier: 'portocaliu',
-              itemLabel: 'Portocaliu',
-              model: '',
-              position: {
-                top: '14%',
-                left: '42%',
-                width: '14%',
-                height: 'auto'
-              },
-              image: {
-                src: 'portocaliu.png'
-              },
-              sourceAnchors: ["LeftMiddle", "RightMiddle"],
-              targetAnchors: [],
-              color: '#fdb813'
-            },
-            {
-              identifier: 'roz',
-              itemLabel: 'Roz',
-              model: '',
-              position: {
-                top: '26%',
-                left: '42%',
-                width: '14%',
-                height: 'auto'
-              },
-              image: {
-                src: 'roz.png'
-              },
-              sourceAnchors: ["LeftMiddle", "RightMiddle"],
-              targetAnchors: [],
-              color: '#f8cbdf'
-            },
-            {
-              identifier: 'verde',
-              itemLabel: 'Verde',
-              model: '',
-              position: {
-                top: '38%',
-                left: '42%',
-                width: '14%',
-                height: 'auto'
-              },
-              image: {
-                src: 'verde.png'
-              },
-              sourceAnchors: ["LeftMiddle", "RightMiddle"],
-              targetAnchors: [],
-              color: '#bfd630'
-            },
-            {
-              identifier: 'albastru',
-              itemLabel: 'Albastru',
-              model: '',
-              position: {
-                top: '50%',
-                left: '42%',
-                width: '14%',
-                height: 'auto'
-              },
-              image: {
-                src: 'albastru.png'
-              },
-              sourceAnchors: ["LeftMiddle", "RightMiddle"],
-              targetAnchors: [],
-              color: '#D2EEFD'
-            },
-            {
-              identifier: 'galben',
-              itemLabel: 'Galben',
-              model: '',
-              position: {
-                top: '62%',
-                left: '42%',
-                width: '14%',
-                height: 'auto'
-              },
-              image: {
-                src: 'galben.png'
-              },
-              sourceAnchors: ["LeftMiddle", "RightMiddle"],
-              targetAnchors: [],
-              color: '#fedc00'
-            },
-            {
-              identifier: 'rosu',
-              itemLabel: 'Rosu',
-              model: '',
-              position: {
-                top: '74%',
-                left: '42%',
-                width: '14%',
-                height: 'auto'
-              },
-              image: {
-                src: 'rosu.png'
-              },
-              sourceAnchors: ["LeftMiddle", "RightMiddle"],
-              targetAnchors: [],
-              color: '#f9bfbe'
-            },
-            {
-              identifier: 'creion',
-              itemLabel: 'Creion',
-              model: '',
-              position: {
-                top: '4%',
-                left: '74%',
-                width: '12%',
-                height: 'auto'
-              },
-              image: {
-                src: 'creion.png'
-              },
-              solution: 'portocaliu',
-              sourceAnchors: [],
-              targetAnchors: ["LeftMiddle"]
-            },
-            {
-              identifier: 'pix',
-              itemLabel: 'Pix',
-              model: '',
-              position: {
-                top: '46%',
-                left: '74%',
-                width: '12%',
-                height: 'auto'
-              },
-              image: {
-                src: 'pix.png'
-              },
-              solution: 'portocaliu',
-              sourceAnchors: [],
-              targetAnchors: ["LeftMiddle"]
-            },
-            {
-              identifier: 'penar',
-              itemLabel: 'Penar',
-              model: '',
-              position: {
-                top: '76%',
-                left: '74%',
-                width: '12%',
-                height: 'auto'
-              },
-              image: {
-                src: 'penar.png'
-              },
-              solution: 'portocaliu',
-              sourceAnchors: [],
-              targetAnchors: ["LeftMiddle"]
-            }
-          ]
-       }
-     ]
-    },
-    '51': {
-      exercise: [
-        {
-          type: 'picker',
-          title: 'Ce nu se potriveste?',
-          image: 'pg51ex2',
-          trigger: {
-            button: {
-              top: '60%'
-            },
-            zone: {
-              top: '60%',
-              bottom: '4%'
-            }
-          },
-          help: {
-            toggle: false,
-            text: '(lipsa excel)'
-          },
-          data: [
-            {
               identifier: 'one',
               model: '',
               position: {
                 top: '28%',
                 left: '20%',
-                width: '62%',
-                height: '8.5%'
+                width: '80px',
+                height: '80px'
               },
-              answer: {
-                left: '83.5%'
-              }
-            },
-            {
-              identifier: 'two',
-              model: '',
-              position: {
-                top: '41%',
-                left: '13%',
-                width: '77%',
-                height: '8.5%'
-              },
-              answer: {
-                left: '37.5%'
-              }
-            },
-            {
-              identifier: 'three',
-              model: '',
-              position: {
-                top: '54%',
-                left: '17%',
-                width: '67%',
-                height: '8.5%'
-              },
-              answer: {
-                left: '34.5%'
-              }
-            },
-            {
-              identifier: 'four',
-              model: '',
-              position: {
-                top: '67.5%',
-                left: '25%',
-                width: '52%',
-                height: '8.5%'
-              },
-              answer: {
-                left: '76.5%'
+              image: {
+                src: 'ghiozdan.png',
+                width: '80',
+                height: '80'
               }
             }
           ]
+       }
+     ]
+    },
+    '25': {
+      static: [
+        {
+          image: 'pg25static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '20%'
+            },
+            zone: {
+              top: '20%',
+              bottom: '42%',
+            }
+          }
+        },
+        {
+          image: 'pg25static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '58%'
+            },
+            zone: {
+              top: '58%',
+              bottom: '18%',
+            }
+          }
+        },
+        {
+          image: 'pg25static3',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '82%'
+            },
+            zone: {
+              top: '82%',
+              bottom: '10%',
+            }
+          }
+        }
+      ]
+    },
+    '26': {
+      static: [
+        {
+          image: 'pg26static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '8%'
+            },
+            zone: {
+              top: '8%',
+              bottom: '56%',
+            }
+          }
+        },
+        {
+          image: 'pg26static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '44%'
+            },
+            zone: {
+              top: '44%',
+              bottom: '28%',
+            }
+          }
+        }
+      ]
+    },
+    '27': {
+      video: [
+        {
+          video: {
+            // change me
+            source: 'test'
+          },
+          trigger: {
+            button: {
+              top: '18%'
+            },
+            zone: {
+              top: '18%',
+              bottom: '3%'
+            }
+          }
+        }
+      ]
+    },
+    '28': {
+      video: [
+        {
+          video: {
+            // change me
+            source: 'test'
+          },
+          trigger: {
+            button: {
+              top: '11%'
+            },
+            zone: {
+              top: '11%',
+              bottom: '3%'
+            }
+          }
+        }
+      ]
+    },
+    '30': {
+      video: [
+        {
+          video: {
+            // change me
+            source: 'test'
+          },
+          trigger: {
+            button: {
+              top: '11%'
+            },
+            zone: {
+              top: '11%',
+              bottom: '47%'
+            }
+          }
+        },
+        {
+          video: {
+            // change me
+            source: 'test'
+          },
+          trigger: {
+            button: {
+              top: '53%'
+            },
+            zone: {
+              top: '53%',
+              bottom: '3%'
+            }
+          }
+        }
+      ]
+    },
+    '31': {
+      static: [
+        {
+          image: 'pg31ex6',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '10%'
+            },
+            zone: {
+              top: '10%',
+              bottom: '58%'
+            }
+          }
+        }
+      ]
+    },
+    '32': {
+      static: [
+        {
+          image: 'pg32ichmag',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '59%'
+            },
+            zone: {
+              top: '59%',
+              bottom: '4%'
+            }
+          }
+        }
+      ],
+      video: [
+        {
+          video: {
+            // change me
+            source: 'test'
+          },
+          trigger: {
+            button: {
+              top: '7%'
+            },
+            zone: {
+              top: '7%',
+              bottom: '41%'
+            }
+          }
+        }
+      ]
+    },
+    '34': {
+      video: [
+        {
+          video: {
+            // change me
+            source: 'test'
+          },
+          trigger: {
+            button: {
+              top: '11%'
+            },
+            zone: {
+              top: '11%',
+              bottom: '9%'
+            }
+          }
+        }
+      ]
+    },
+    '35': {
+      static: [
+        {
+          image: 'pg35static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '23%'
+            },
+            zone: {
+              top: '23%',
+              bottom: '70%'
+            }
+          }
+        },
+        {
+          image: 'pg35static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '30%'
+            },
+            zone: {
+              top: '30%',
+              bottom: '54%'
+            }
+          }
+        },
+        {
+          image: 'pg35static3',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '46%'
+            },
+            zone: {
+              top: '46%',
+              bottom: '38%'
+            }
+          }
+        },
+        {
+          image: 'pg35static4',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '62%'
+            },
+            zone: {
+              top: '62%',
+              bottom: '23%'
+            }
+          }
+        },
+        {
+          image: 'pg35static5',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '77%'
+            },
+            zone: {
+              top: '77%',
+              bottom: '7%'
+            }
+          }
+        }
+      ]
+    },
+    '36': {
+      static: [
+        {
+          image: 'pg36static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '7%'
+            },
+            zone: {
+              top: '7%',
+              bottom: '61%'
+            }
+          }
+        },
+        {
+          image: 'pg36static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '39%'
+            },
+            zone: {
+              top: '39%',
+              bottom: '30%'
+            }
+          }
+        },
+        {
+          image: 'pg36static3',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '70%'
+            },
+            zone: {
+              top: '70%',
+              bottom: '6%'
+            }
+          }
+        }
+      ]
+    },
+    '37': {
+      video: [
+        {
+          video: {
+            // change me
+            source: 'test'
+          },
+          trigger: {
+            button: {
+              top: '13%'
+            },
+            zone: {
+              top: '13%',
+              bottom: '7%'
+            }
+          }
         }
       ]
     },
@@ -1504,6 +1626,82 @@ module.exports = function() {
               bottom: '5%'
             }
           }
+        }
+      ]
+    },
+    '51': {
+      exercise: [
+        {
+          type: 'picker',
+          title: 'Ce nu se potriveste?',
+          image: 'pg51ex2',
+          trigger: {
+            button: {
+              top: '60%'
+            },
+            zone: {
+              top: '60%',
+              bottom: '4%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: '(lipsa excel)'
+          },
+          data: [
+            {
+              identifier: 'one',
+              model: '',
+              position: {
+                top: '28%',
+                left: '20%',
+                width: '62%',
+                height: '8.5%'
+              },
+              answer: {
+                left: '83.5%'
+              }
+            },
+            {
+              identifier: 'two',
+              model: '',
+              position: {
+                top: '41%',
+                left: '13%',
+                width: '77%',
+                height: '8.5%'
+              },
+              answer: {
+                left: '37.5%'
+              }
+            },
+            {
+              identifier: 'three',
+              model: '',
+              position: {
+                top: '54%',
+                left: '17%',
+                width: '67%',
+                height: '8.5%'
+              },
+              answer: {
+                left: '34.5%'
+              }
+            },
+            {
+              identifier: 'four',
+              model: '',
+              position: {
+                top: '67.5%',
+                left: '25%',
+                width: '52%',
+                height: '8.5%'
+              },
+              answer: {
+                left: '76.5%'
+              }
+            }
+          ]
         }
       ]
     },
