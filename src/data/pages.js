@@ -1112,6 +1112,59 @@ module.exports = function() {
         }
       ]
     },
+    '38': {
+      video: [
+        {
+          video: {
+            // change me
+            source: 'test'
+          },
+          trigger: {
+            button: {
+              top: '9%'
+            },
+            zone: {
+              top: '9%',
+              bottom: '16%'
+            }
+          }
+        },
+        {
+          video: {
+            // change me
+            source: 'test'
+          },
+          trigger: {
+            button: {
+              top: '84%'
+            },
+            zone: {
+              top: '84%',
+              bottom: '9%'
+            }
+          }
+        }
+      ]
+    },
+    '40': {
+      video: [
+        {
+          video: {
+            // change me
+            source: 'test'
+          },
+          trigger: {
+            button: {
+              top: '12%'
+            },
+            zone: {
+              top: '12%',
+              bottom: '3%'
+            }
+          }
+        }
+      ]
+    },
     '41': {
       video: [
         {
