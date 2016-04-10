@@ -75,6 +75,69 @@ module.exports = function() {
         }
       ]
     },
+    '08': {
+      exercise: [
+        {
+          type: 'picker',
+          title: 'Titlu provizoriu (lipsa excel)',
+          image: 'pg08ex5',
+          trigger: {
+            button: {
+              top: '11%'
+            },
+            zone: {
+              top: '11%',
+              bottom: '4%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'ASCULTA SI INCERCUIESTE PERSONAJUL CARE VORBESTE. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              model: '',
+              position: {
+                top: '32.3%',
+                left: '35.5%',
+                width: '60%',
+                height: '15.5%'
+              },
+              answer: {
+                left: '22%'
+              }
+            },
+            {
+              identifier: 'two',
+              model: '',
+              position: {
+                top: '49.3%',
+                left: '35.5%',
+                width: '60%',
+                height: '15.5%'
+              },
+              answer: {
+                left: '65%'
+              }
+            },
+            {
+              identifier: 'three',
+              model: '',
+              position: {
+                top: '67.3%',
+                left: '35.5%',
+                width: '60%',
+                height: '15.5%'
+              },
+              answer: {
+                left: '27%'
+              }
+            }
+          ]
+        }
+      ]
+    },
     '09': {
       video: [
         {
@@ -170,68 +233,72 @@ module.exports = function() {
               identifier: 'one',
               model: '',
               position: {
-                top: '6.5%',
-                left: '20%',
+                top: '19%',
+                left: '17.7%',
                 width: '30%',
-                height: '10.5%'
+                height: '8.3%'
               },
               answerFalse: {
-                left: '68%',
-                top: '58%'
+                top: '62%',
+                left: '68%'
               },
               answerTrue: {
-                left: '75.5%'
+                top: '3%',
+                left: '77%'
               }
             },
             {
               identifier: 'two',
               model: '',
               position: {
-                top: '6.5%',
-                left: '50%',
+                top: '19%',
+                left: '57.7%',
                 width: '30%',
-                height: '10.5%'
+                height: '8.3%'
               },
               answerTrue: {
-                left: '72%',
-                top: '58%'
+                top: '62%',
+                left: '68%'
               },
               answerFalse: {
-                left: '79.5%'
+                top: '3%',
+                left: '77%'
               }
             },
             {
               identifier: 'three',
               model: '',
               position: {
-                top: '54.5%',
-                left: '20%',
+                top: '58.6%',
+                left: '17.7%',
                 width: '30%',
-                height: '10.5%'
+                height: '8.3%'
               },
               answerFalse: {
-                left: '77%',
-                top: '58%'
+                top: '63%',
+                left: '79%'
               },
               answerTrue: {
-                left: '82.5%'
+                top: '6%',
+                left: '86%'
               }
             },
             {
               identifier: 'four',
               model: '',
               position: {
-                top: '54.5%',
-                left: '50%',
+                top: '58.6%',
+                left: '57.7%',
                 width: '30%',
-                height: '10.5%'
+                height: '8.3%'
               },
               answerTrue: {
-                left: '75%',
-                top: '58%'
+                top: '63%',
+                left: '72%'
               },
               answerFalse: {
-                left: '81.5%'
+                top: '6%',
+                left: '80%'
               }
             }
           ]
@@ -1205,10 +1272,10 @@ module.exports = function() {
             {
               identifier: 'one',
               position: {
-                top: '81.2%',
-                left: '29.3%',
-                width: '5.5%',
-                height: '6.5%'
+                top: '73%',
+                left: '24%',
+                width: '6.6%',
+                height: '5.5%'
               },
               model: '',
               solution: '4'
@@ -1216,10 +1283,10 @@ module.exports = function() {
             {
               identifier: 'two',
               position: {
-                top: '81.2%',
-                left: '48.8%',
-                width: '5.5%',
-                height: '6.5%'
+                top: '73%',
+                left: '48.9%',
+                width: '6.6%',
+                height: '5.5%'
               },
               model: '',
               solution: '3'
@@ -1227,10 +1294,10 @@ module.exports = function() {
             {
               identifier: 'three',
               position: {
-                top: '81.2%',
-                left: '68.8%',
-                width: '5.5%',
-                height: '6.5%'
+                top: '73%',
+                left: '74.1%',
+                width: '6.6%',
+                height: '5.5%'
               },
               model: '',
               solution: '6'
@@ -1238,10 +1305,10 @@ module.exports = function() {
             {
               identifier: 'four',
               position: {
-                top: '91.6%',
-                left: '29.3%',
-                width: '5.5%',
-                height: '6.5%'
+                top: '80.7%',
+                left: '24%',
+                width: '6.6%',
+                height: '5.5%'
               },
               model: '',
               solution: '5'
@@ -1249,10 +1316,10 @@ module.exports = function() {
             {
               identifier: 'five',
               position: {
-                top: '91.6%',
-                left: '48.8%',
-                width: '5.5%',
-                height: '6.5%'
+                top: '80.7%',
+                left: '48.9%',
+                width: '6.6%',
+                height: '5.5%'
               },
               model: '',
               solution: '1'
@@ -1260,10 +1327,10 @@ module.exports = function() {
             {
               identifier: 'six',
               position: {
-                top: '91.6%',
-                left: '68.8%',
-                width: '5.5%',
-                height: '6.5%'
+                top: '80.7%',
+                left: '74.1%',
+                width: '6.6%',
+                height: '5.5%'
               },
               model: '',
               solution: '2'
@@ -1706,23 +1773,23 @@ module.exports = function() {
               identifier: 'one',
               model: '',
               position: {
-                top: '28%',
-                left: '20%',
-                width: '62%',
-                height: '8.5%'
+                top: '37%',
+                left: '14%',
+                width: '73%',
+                height: '6.5%'
               },
               answer: {
-                left: '83.5%'
+                left: '74.5%'
               }
             },
             {
               identifier: 'two',
               model: '',
               position: {
-                top: '41%',
-                left: '13%',
-                width: '77%',
-                height: '8.5%'
+                top: '44.2%',
+                left: '14%',
+                width: '73%',
+                height: '6.5%'
               },
               answer: {
                 left: '37.5%'
@@ -1732,10 +1799,10 @@ module.exports = function() {
               identifier: 'three',
               model: '',
               position: {
-                top: '54%',
-                left: '17%',
-                width: '67%',
-                height: '8.5%'
+                top: '51.5%',
+                left: '14%',
+                width: '73%',
+                height: '6.5%'
               },
               answer: {
                 left: '34.5%'
@@ -1745,13 +1812,13 @@ module.exports = function() {
               identifier: 'four',
               model: '',
               position: {
-                top: '67.5%',
-                left: '25%',
-                width: '52%',
-                height: '8.5%'
+                top: '58.7%',
+                left: '14%',
+                width: '73%',
+                height: '6.5%'
               },
               answer: {
-                left: '76.5%'
+                left: '65.5%'
               }
             }
           ]
@@ -1785,9 +1852,9 @@ module.exports = function() {
             {
               identifier: 'one',
               position: {
-                top: '26%',
+                top: '36%',
                 left: '48%',
-                width: '26%'
+                width: '25%'
               },
               model: '',
               solution: 'GELB'
@@ -1795,9 +1862,9 @@ module.exports = function() {
             {
               identifier: 'two',
               position: {
-                top: '38.5%',
+                top: '43%',
                 left: '48%',
-                width: '26%'
+                width: '25%'
               },
               model: '',
               solution: 'BLAU'
@@ -1805,9 +1872,9 @@ module.exports = function() {
             {
               identifier: 'three',
               position: {
-                top: '51.5%',
+                top: '50.2%',
                 left: '48%',
-                width: '26%'
+                width: '25%'
               },
               model: '',
               solution: 'GRÜN'
@@ -1815,9 +1882,9 @@ module.exports = function() {
             {
               identifier: 'four',
               position: {
-                top: '64%',
+                top: '57.5%',
                 left: '48%',
-                width: '26%'
+                width: '25%'
               },
               model: '',
               solution: 'ROSA'
@@ -1845,10 +1912,10 @@ module.exports = function() {
             {
               identifier: 'one',
               position: {
-                top: '27%',
-                left: '56.3%',
-                width: '4.5%',
-                height: '5.5%'
+                top: '36.5%',
+                left: '55.8%',
+                width: '5.1%',
+                height: '4%'
               },
               model: '',
               solution: '6'
@@ -1856,10 +1923,10 @@ module.exports = function() {
             {
               identifier: 'two',
               position: {
-                top: '40%',
-                left: '56.3%',
-                width: '4.5%',
-                height: '5.5%'
+                top: '44%',
+                left: '55.2%',
+                width: '5.1%',
+                height: '4%'
               },
               model: '',
               solution: '4'
@@ -1867,10 +1934,10 @@ module.exports = function() {
             {
               identifier: 'three',
               position: {
-                top: '52.5%',
-                left: '68.3%',
-                width: '4.5%',
-                height: '5.5%'
+                top: '51%',
+                left: '66.3%',
+                width: '5.1%',
+                height: '4%'
               },
               model: '',
               solution: '4'
@@ -1878,10 +1945,10 @@ module.exports = function() {
             {
               identifier: 'four',
               position: {
-                top: '65.2%',
-                left: '66.7%',
-                width: '4.5%',
-                height: '5.5%'
+                top: '58%',
+                left: '64.8%',
+                width: '5.1%',
+                height: '4%'
               },
               model: '',
               solution: '1'

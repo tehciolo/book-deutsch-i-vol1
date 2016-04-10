@@ -7,10 +7,9 @@
   }
 
   &--52-0 {
-    width: 80%;
-    // background-color: rgba($red-orange, .3);
+    width: 75%;
     font-size: 2rem;
-    letter-spacing: 20px;
+    letter-spacing: 15px;
   }
 
   &--52-1 {
@@ -31,6 +30,13 @@
 }
 
 .picker {
+  &--08-0 {
+    & + label {
+      width: 26%;
+      top: 24%;
+    }
+  }
+
   &--51-0 {
     & + .labelPicker__answer {
       width: 19%;
