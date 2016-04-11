@@ -914,6 +914,162 @@ module.exports = function() {
         }
       ]
     },
+    '29': {
+      exercise: [
+        {
+          type: 'checker',
+          title: 'Titlu provizoriu (lipsa excel)',
+          image: 'pg29ex3',
+          trigger: {
+            button: {
+              top: '12%'
+            },
+            zone: {
+              top: '12%',
+              bottom: '5%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'ASCULTA SI COLOREAZA LUMINA SEMAFORULUI VERDE DACA ENUNTUL ESTE CORECT, ROSU DACA ESTE GRESIT SI PORTOCALIU DACA NU STII. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              model: '',
+              position: {
+                top: '15%',
+                left: '35.7%',
+                width: '14%',
+                height: '19.3%'
+              },
+              answerFalse: {
+                top: '23%',
+                left: '29%'
+              },
+              answerTrue: {
+                top: '66%',
+                left: '33%'
+              },
+              answerIndeterminate: {
+                top: '45%',
+                left: '31%'
+              }
+            },
+            {
+              identifier: 'two',
+              model: '',
+              position: {
+                top: '15.5%',
+                left: '74.5%',
+                width: '14%',
+                height: '19.3%'
+              },
+              answerFalse: {
+                top: '66%',
+                left: '33%'
+              },
+              answerTrue: {
+                top: '23%',
+                left: '29%'
+              },
+              answerIndeterminate: {
+                top: '45%',
+                left: '31%'
+              }
+            },
+            {
+              identifier: 'three',
+              model: '',
+              position: {
+                top: '39.5%',
+                left: '36.7%',
+                width: '14%',
+                height: '19.3%'
+              },
+              answerFalse: {
+                top: '23%',
+                left: '29%'
+              },
+              answerTrue: {
+                top: '45%',
+                left: '31%'
+              },
+              answerIndeterminate: {
+                top: '66%',
+                left: '33%'
+              }
+            },
+            {
+              identifier: 'four',
+              model: '',
+              position: {
+                top: '39.4%',
+                left: '73.9%',
+                width: '14%',
+                height: '19.3%'
+              },
+              answerFalse: {
+                top: '23%',
+                left: '29%'
+              },
+              answerTrue: {
+                top: '66%',
+                left: '33%'
+              },
+              answerIndeterminate: {
+                top: '45%',
+                left: '31%'
+              }
+            },
+            {
+              identifier: 'five',
+              model: '',
+              position: {
+                top: '63.5%',
+                left: '37.1%',
+                width: '14%',
+                height: '19.3%'
+              },
+              answerFalse: {
+                top: '66%',
+                left: '33%'
+              },
+              answerTrue: {
+                top: '23%',
+                left: '29%'
+              },
+              answerIndeterminate: {
+                top: '45%',
+                left: '31%'
+              }
+            },
+            {
+              identifier: 'six',
+              model: '',
+              position: {
+                top: '62.5%',
+                left: '74.5%',
+                width: '14%',
+                height: '19.3%'
+              },
+              answerFalse: {
+                top: '23%',
+                left: '29%'
+              },
+              answerTrue: {
+                top: '66%',
+                left: '33%'
+              },
+              answerIndeterminate: {
+                top: '45%',
+                left: '31%'
+              }
+            }
+          ]
+        }
+      ]
+    },
     '30': {
       video: [
         {
@@ -965,6 +1121,58 @@ module.exports = function() {
               bottom: '58%'
             }
           }
+        }
+      ],
+      exercise: [
+        {
+          type: 'painter',
+          title: 'Titlu provizoriu (lipsa excel)',
+          image: 'pg31ex7',
+          trigger: {
+            button: {
+              top: '42%'
+            },
+            zone: {
+              top: '42%',
+              bottom: '3%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'ASCULTA SI DESENEAZA CONFORM INDICATIILOR. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '28.5%',
+                left: '49%',
+                width: '30%',
+                height: '13.5%'
+              },
+              solution: 'pg31ex7one'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '42.5%',
+                left: '22%',
+                width: '30%',
+                height: '13.5%'
+              },
+              solution: 'pg31ex7two'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '57%',
+                left: '22%',
+                width: '30%',
+                height: '13.5%'
+              },
+              solution: 'pg31ex7three'
+            }
+          ]
         }
       ]
     },
