@@ -766,11 +766,11 @@ module.exports = function() {
                 height: 'auto'
               },
               image: {
-                src: 'ghiozdan.png'
+                src: '24-ghiozdan.png'
               },
               solution: 'roz',
               solutionImg: {
-                src: 'ghiozdan-colorat.png'
+                src: '24-ghiozdan-colorat.png'
               },
               sourceAnchors: [],
               targetAnchors: ["RightMiddle"]
@@ -784,11 +784,11 @@ module.exports = function() {
                 height: 'auto'
               },
               image: {
-                src: 'creion-ceara.png'
+                src: '24-creion-ceara.png'
               },
               solution: 'albastru',
               solutionImg: {
-                src: 'creion-ceara-colorat.png'
+                src: '24-creion-ceara-colorat.png'
               },
               sourceAnchors: [],
               targetAnchors: ["RightMiddle"]
@@ -802,11 +802,11 @@ module.exports = function() {
                 height: 'auto'
               },
               image: {
-                src: 'guma-sters.png'
+                src: '24-guma-sters.png'
               },
               solution: 'portocaliu',
               solutionImg: {
-                src: 'guma-sters-colorata.png'
+                src: '24-guma-sters-colorata.png'
               },
               sourceAnchors: [],
               targetAnchors: ["RightMiddle"]
@@ -821,7 +821,7 @@ module.exports = function() {
                 color: '#F7A04B'
               },
               image: {
-                src: 'portocaliu.png'
+                src: '24-portocaliu.png'
               },
               sourceAnchors: ["LeftMiddle", "RightMiddle"],
               targetAnchors: []
@@ -836,7 +836,7 @@ module.exports = function() {
                 color: '#F49DC4'
               },
               image: {
-                src: 'roz.png'
+                src: '24-roz.png'
               },
               sourceAnchors: ["LeftMiddle", "RightMiddle"],
               targetAnchors: []
@@ -851,7 +851,7 @@ module.exports = function() {
                 color: '#8BCB6A'
               },
               image: {
-                src: 'verde.png'
+                src: '24-verde.png'
               },
               sourceAnchors: ["LeftMiddle", "RightMiddle"],
               targetAnchors: []
@@ -866,7 +866,7 @@ module.exports = function() {
                 color: '#33BCF1'
               },
               image: {
-                src: 'albastru.png'
+                src: '24-albastru.png'
               },
               sourceAnchors: ["LeftMiddle", "RightMiddle"],
               targetAnchors: []
@@ -881,7 +881,7 @@ module.exports = function() {
                 color: '#FCC641'
               },
               image: {
-                src: 'galben.png'
+                src: '24-galben.png'
               },
               sourceAnchors: ["LeftMiddle", "RightMiddle"],
               targetAnchors: []
@@ -896,7 +896,7 @@ module.exports = function() {
                 color: '#EF445F'
               },
               image: {
-                src: 'rosu.png'
+                src: '24-rosu.png'
               },
               sourceAnchors: ["LeftMiddle", "RightMiddle"],
               targetAnchors: []
@@ -910,11 +910,11 @@ module.exports = function() {
                 height: 'auto'
               },
               image: {
-                src: 'creion.png'
+                src: '24-creion.png'
               },
               solution: 'galben',
               solutionImg: {
-                src: 'creion-colorat.png'
+                src: '24-creion-colorat.png'
               },
               sourceAnchors: [],
               targetAnchors: ["LeftMiddle"]
@@ -928,11 +928,11 @@ module.exports = function() {
                 height: 'auto'
               },
               image: {
-                src: 'pix.png'
+                src: '24-pix.png'
               },
               solution: 'rosu',
               solutionImg: {
-                src: 'pix-colorat.png'
+                src: '24-pix-colorat.png'
               },
               sourceAnchors: [],
               targetAnchors: ["LeftMiddle"]
@@ -946,11 +946,11 @@ module.exports = function() {
                 height: 'auto'
               },
               image: {
-                src: 'penar.png'
+                src: '24-penar.png'
               },
               solution: 'verde',
               solutionImg: {
-                src: 'penar-colorat.png'
+                src: '24-penar-colorat.png'
               },
               sourceAnchors: [],
               targetAnchors: ["LeftMiddle"]
