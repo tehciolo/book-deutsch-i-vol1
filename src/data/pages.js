@@ -76,7 +76,7 @@ module.exports = function() {
       exercise: [
         {
           type: 'picker',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'WER SPRICHT? HÖR ZU UND KREIS EIN!',
           image: 'pg08ex5',
           trigger: {
             button: {
@@ -207,7 +207,7 @@ module.exports = function() {
       exercise: [
         {
           type: 'checker',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'KREUZE SINNGEMÄSS AN!',
           image: 'pg11ex8',
           trigger: {
             button: {
@@ -815,7 +815,7 @@ module.exports = function() {
       exercise: [
         {
           type: 'painter',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'RATE, ZEICHNE UND SAG DIE NAMEN!',
           image: 'pg23ex1',
           trigger: {
             button: {
@@ -1225,7 +1225,7 @@ module.exports = function() {
       exercise: [
         {
           type: 'checker',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'HÖR ZU UND MAL AUS!',
           image: 'pg29ex3',
           trigger: {
             button: {
@@ -1431,7 +1431,7 @@ module.exports = function() {
       exercise: [
         {
           type: 'painter',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'HÖR ZU UND ZEICHNE!',
           image: 'pg31ex7',
           trigger: {
             button: {
@@ -1759,7 +1759,7 @@ module.exports = function() {
       exercise: [
         {
           type: 'type',
-          title: 'Numara obiectele si scrie numarul in casuta potrivita',
+          title: 'FINDE, ZÄHL UND SCHREIB DIE ZAHL!',
           image: 'pg41ex6',
           trigger: {
             button: {
@@ -2252,7 +2252,7 @@ module.exports = function() {
       exercise: [
         {
           type: 'picker',
-          title: 'Ce nu se potriveste?',
+          title: 'WAS PASST NICHT?',
           image: 'pg51ex2',
           trigger: {
             button: {
@@ -2328,7 +2328,7 @@ module.exports = function() {
       exercise: [
         {
           type: 'typer',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'FINDE DIE FARBE VERBINDE UND MAL AUS?',
           image: 'pg52ex3',
           trigger: {
             button: {
@@ -2392,7 +2392,7 @@ module.exports = function() {
         },
         {
           type: 'type',
-          title: 'Titlu provizoriu (lipsa excel)',
+          title: 'RECHNE!',
           image: 'pg52ex4',
           trigger: {
             button: {
