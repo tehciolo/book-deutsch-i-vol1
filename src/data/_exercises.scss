@@ -34,27 +34,27 @@
       height: 18%;
     }
 
-    @at-root label[for="twotrue"] {
+    @at-root .page29 label[for="twotrue"] {
       background-image: url(../img/checker--false.png);
     }
 
-    @at-root label[for="twofalse"] {
+    @at-root .page29 label[for="twofalse"] {
       background-image: url(../img/checker--true.png);
     }
 
-    @at-root label[for="threetrue"] {
+    @at-root .page29 label[for="threetrue"] {
       background-image: url(../img/checker--indeterminate.png);
     }
 
-    @at-root label[for="threeindeterminate"] {
+    @at-root .page29 label[for="threeindeterminate"] {
       background-image: url(../img/checker--true.png);
     }
 
-    @at-root label[for="fivetrue"] {
+    @at-root .page29 label[for="fivetrue"] {
       background-image: url(../img/checker--false.png);
     }
 
-    @at-root label[for="fivefalse"] {
+    @at-root .page29 label[for="fivefalse"] {
       background-image: url(../img/checker--true.png);
     }
   }
