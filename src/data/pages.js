@@ -4,8 +4,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p5_v1'
           },
           trigger: {
             button: {
@@ -23,8 +22,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p6_v1'
           },
           trigger: {
             button: {
@@ -60,8 +58,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p7_v1'
           },
           trigger: {
             button: {
@@ -142,8 +139,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p9_v1'
           },
           trigger: {
             button: {
@@ -157,8 +153,7 @@ module.exports = function() {
         },
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p9_v2'
           },
           trigger: {
             button: {
@@ -194,8 +189,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p10_v1'
           },
           trigger: {
             button: {
@@ -327,8 +321,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p12_v1'
           },
           trigger: {
             button: {
@@ -346,8 +339,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p13-14_v1'
           },
           trigger: {
             button: {
@@ -365,8 +357,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p13-14_v1'
           },
           trigger: {
             button: {
@@ -520,8 +511,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p17_v1'
           },
           trigger: {
             button: {
@@ -539,8 +529,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p18_v1'
           },
           trigger: {
             button: {
@@ -558,8 +547,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p20_v1'
           },
           trigger: {
             button: {
@@ -651,8 +639,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p21_v1'
           },
           trigger: {
             button: {
@@ -754,14 +741,15 @@ module.exports = function() {
      exercise: [
        {
           type: 'linker',
+          image: '02',
           title: 'Uniti cuvantul cu desenul corespunzator',
           trigger: {
             button: {
-              top: '60%'
+              top: '10%'
             },
             zone: {
-              top: '60%',
-              bottom: '4%'
+              top: '10%',
+              bottom: '12%'
             }
           },
           help: {
@@ -770,19 +758,202 @@ module.exports = function() {
           },
           data: [
             {
-              identifier: 'one',
-              model: '',
-              position: {
-                top: '28%',
-                left: '20%',
-                width: '80px',
-                height: '80px'
+              identifier: 'ghiozdan',
+              style: {
+                top: '7%',
+                left: '12%',
+                width: '15%',
+                height: 'auto'
               },
               image: {
-                src: 'ghiozdan.png',
-                width: '80',
-                height: '80'
-              }
+                src: 'ghiozdan.png'
+              },
+              solution: 'roz',
+              solutionImg: {
+                src: 'ghiozdan-colorat.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["RightMiddle"]
+            },
+            {
+              identifier: 'creion-de-ceara',
+              style: {
+                top: '32%',
+                left: '12%',
+                width: '15%',
+                height: 'auto'
+              },
+              image: {
+                src: 'creion-ceara.png'
+              },
+              solution: 'albastru',
+              solutionImg: {
+                src: 'creion-ceara-colorat.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["RightMiddle"]
+            },
+            {
+              identifier: 'guma-de-sters',
+              style: {
+                top: '70%',
+                left: '12%',
+                width: '15%',
+                height: 'auto'
+              },
+              image: {
+                src: 'guma-sters.png'
+              },
+              solution: 'portocaliu',
+              solutionImg: {
+                src: 'guma-sters-colorata.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["RightMiddle"]
+            },
+            {
+              identifier: 'portocaliu',
+              style: {
+                top: '14%',
+                left: '42%',
+                width: '17%',
+                height: 'auto',
+                color: '#F7A04B'
+              },
+              image: {
+                src: 'portocaliu.png'
+              },
+              sourceAnchors: ["LeftMiddle", "RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'roz',
+              style: {
+                top: '26%',
+                left: '42%',
+                width: '17%',
+                height: 'auto',
+                color: '#F49DC4'
+              },
+              image: {
+                src: 'roz.png'
+              },
+              sourceAnchors: ["LeftMiddle", "RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'verde',
+              style: {
+                top: '38%',
+                left: '42%',
+                width: '17%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: 'verde.png'
+              },
+              sourceAnchors: ["LeftMiddle", "RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'albastru',
+              style: {
+                top: '50%',
+                left: '42%',
+                width: '17%',
+                height: 'auto',
+                color: '#33BCF1'
+              },
+              image: {
+                src: 'albastru.png'
+              },
+              sourceAnchors: ["LeftMiddle", "RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'galben',
+              style: {
+                top: '62%',
+                left: '42%',
+                width: '17%',
+                height: 'auto',
+                color: '#FCC641'
+              },
+              image: {
+                src: 'galben.png'
+              },
+              sourceAnchors: ["LeftMiddle", "RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'rosu',
+              style: {
+                top: '74%',
+                left: '42%',
+                width: '17%',
+                height: 'auto',
+                color: '#EF445F'
+              },
+              image: {
+                src: 'rosu.png'
+              },
+              sourceAnchors: ["LeftMiddle", "RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'creion',
+              style: {
+                top: '4%',
+                left: '74%',
+                width: '15%',
+                height: 'auto'
+              },
+              image: {
+                src: 'creion.png'
+              },
+              solution: 'galben',
+              solutionImg: {
+                src: 'creion-colorat.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'pix',
+              style: {
+                top: '46%',
+                left: '74%',
+                width: '15%',
+                height: 'auto'
+              },
+              image: {
+                src: 'pix.png'
+              },
+              solution: 'rosu',
+              solutionImg: {
+                src: 'pix-colorat.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'penar',
+              style: {
+                top: '76%',
+                left: '74%',
+                width: '15%',
+                height: 'auto'
+              },
+              image: {
+                src: 'penar.png'
+              },
+              solution: 'verde',
+              solutionImg: {
+                src: 'penar-colorat.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
             }
           ]
        }
@@ -880,8 +1051,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p27_v1'
           },
           trigger: {
             button: {
@@ -899,8 +1069,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p28_v1'
           },
           trigger: {
             button: {
@@ -1074,8 +1243,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p30_v1'
           },
           trigger: {
             button: {
@@ -1089,8 +1257,7 @@ module.exports = function() {
         },
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p30_v2'
           },
           trigger: {
             button: {
@@ -1198,8 +1365,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p32_v1'
           },
           trigger: {
             button: {
@@ -1217,8 +1383,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p34_v1'
           },
           trigger: {
             button: {
@@ -1372,8 +1537,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p37_v1'
           },
           trigger: {
             button: {
@@ -1391,8 +1555,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p38_v1'
           },
           trigger: {
             button: {
@@ -1406,8 +1569,7 @@ module.exports = function() {
         },
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p38_v2'
           },
           trigger: {
             button: {
@@ -1425,8 +1587,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p40_v1'
           },
           trigger: {
             button: {
@@ -1444,8 +1605,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p41_v1'
           },
           trigger: {
             button: {
@@ -1570,8 +1730,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p42_v1'
           },
           trigger: {
             button: {
@@ -1705,8 +1864,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p44_v1'
           },
           trigger: {
             button: {
@@ -1851,8 +2009,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p47_v1'
           },
           trigger: {
             button: {
@@ -1866,8 +2023,7 @@ module.exports = function() {
         },
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p47_v2'
           },
           trigger: {
             button: {
@@ -1904,8 +2060,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p48_v1'
           },
           trigger: {
             button: {
@@ -1923,8 +2078,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p49_v1'
           },
           trigger: {
             button: {
@@ -1942,8 +2096,7 @@ module.exports = function() {
       video: [
         {
           video: {
-            // change me
-            source: 'test'
+            source: 'p50_v1'
           },
           trigger: {
             button: {
