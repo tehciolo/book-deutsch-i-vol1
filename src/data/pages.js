@@ -543,6 +543,144 @@ module.exports = function() {
         }
       ]
     },
+    '19': {
+     exercise: [
+       {
+         type: 'linker',
+         image: '02',
+         title: 'HÖR ZU UND VERBINDE!',
+         trigger: {
+           button: {
+             top: '10%'
+           },
+           zone: {
+             top: '10%',
+             bottom: '12%'
+           }
+         },
+         help: {
+           toggle: false,
+           text: 'ASCULTA SI UNESTE OBIECTELE CU GHIOZDANUL CORESPUNZATOR PERSOANEI CARE VORBESTE. Cand ai terminat apasape cheita si verifica. Succes!'
+         },
+         data: [
+           {
+             identifier: 'creion',
+             style: {
+               top: '15%',
+               left: '8%',
+               width: '10%',
+               height: 'auto'
+             },
+             image: {
+               src: '19-creion.png'
+             },
+             sourceAnchors: ["BottomCenter"],
+             targetAnchors: []
+           },
+           {
+             identifier: 'pix',
+             style: {
+               top: '12%',
+               left: '25%',
+               width: '18%',
+               height: 'auto'
+             },
+             image: {
+               src: '19-pix.png'
+             },
+             sourceAnchors: ["BottomCenter"],
+             targetAnchors: []
+           },
+           {
+             identifier: 'creion-ceara',
+             style: {
+               top: '17%',
+               left: '75%',
+               width: '17%',
+               height: 'auto'
+             },
+             image: {
+               src: '19-creion-ceara.png'
+             },
+             sourceAnchors: ["BottomCenter"],
+             targetAnchors: []
+           },
+           {
+             identifier: 'penar',
+             style: {
+               top: '30%',
+               left: '22%',
+               width: '20%',
+               height: 'auto'
+             },
+             image: {
+               src: '19-penar.png'
+             },
+             sourceAnchors: ["BottomCenter"],
+             targetAnchors: []
+           },
+           {
+             identifier: 'guma-sters',
+             style: {
+               top: '27%',
+               left: '49%',
+               width: '19%',
+               height: 'auto'
+             },
+             image: {
+               src: '19-guma-sters.png'
+             },
+             sourceAnchors: ["BottomCenter"],
+             targetAnchors: []
+           },
+           {
+             identifier: 'carte',
+             style: {
+               top: '10%',
+               left: '50%',
+               width: '18%',
+               height: 'auto'
+             },
+             image: {
+               src: '19-carte.png'
+             },
+             sourceAnchors: ["BottomCenter"],
+             targetAnchors: []
+           },
+           {
+             identifier: 'nick',
+             style: {
+               top: '57%',
+               left: '60%',
+               width: '15%',
+               height: 'auto'
+             },
+             image: {
+               src: '19-nick.png'
+             },
+             solution: ["pix, guma-sters, creion-ceara"],
+             sourceAnchors: [],
+             targetAnchors: ["RightMiddle"]
+           },
+           {
+             identifier: 'marion',
+             style: {
+               top: '57%',
+               left: '26%',
+               width: '16%',
+               height: 'auto'
+             },
+             image: {
+               src: '19-marion.png'
+             },
+             solution: ["creion, penar, carte"],
+             sourceAnchors: [],
+             targetAnchors: ["LeftMiddle"]
+           }
+         ]
+       }
+     ]
+    },
     '20': {
       video: [
         {
@@ -742,7 +880,7 @@ module.exports = function() {
        {
           type: 'linker',
           image: '02',
-          title: 'Uniti cuvantul cu desenul corespunzator',
+          title: 'VERBINDE UND MAL AUS!',
           trigger: {
             button: {
               top: '10%'
