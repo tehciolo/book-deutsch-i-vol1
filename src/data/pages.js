@@ -41,7 +41,7 @@ module.exports = function() {
         {
           image: 'pg7ex3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -78,6 +78,10 @@ module.exports = function() {
           type: 'picker',
           title: 'WER SPRICHT? HÖR ZU UND KREIS EIN!',
           image: 'pg08ex5',
+          audio: {
+            source: 'pg8ex5',
+            state: 'stopped'
+          },
           trigger: {
             button: {
               top: '11%'
@@ -172,7 +176,7 @@ module.exports = function() {
         {
           image: 'pg10ichsage',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -304,7 +308,7 @@ module.exports = function() {
         {
           image: 'pg12ichbin',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -376,7 +380,7 @@ module.exports = function() {
         {
           image: 'pg15static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -392,7 +396,7 @@ module.exports = function() {
         {
           image: 'pg15static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -408,7 +412,7 @@ module.exports = function() {
         {
           image: 'pg15static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -424,7 +428,7 @@ module.exports = function() {
         {
           image: 'pg15static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -440,7 +444,7 @@ module.exports = function() {
         {
           image: 'pg15static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -460,7 +464,7 @@ module.exports = function() {
         {
           image: 'pg16static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -476,7 +480,7 @@ module.exports = function() {
         {
           image: 'pg16static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -492,7 +496,7 @@ module.exports = function() {
         {
           image: 'pg16static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -549,6 +553,10 @@ module.exports = function() {
          type: 'linker',
          image: '02',
          title: 'HÖR ZU UND VERBINDE!',
+         audio: {
+           source: 'pg19ex3',
+           state: 'stopped'
+         },
          trigger: {
            button: {
              top: '10%'
@@ -574,6 +582,7 @@ module.exports = function() {
              image: {
                src: '19-creion.png'
              },
+             solutionBorder: true,
              sourceAnchors: ["BottomCenter"],
              targetAnchors: []
            },
@@ -588,6 +597,7 @@ module.exports = function() {
              image: {
                src: '19-pix.png'
              },
+             solutionBorder: true,
              sourceAnchors: ["BottomCenter"],
              targetAnchors: []
            },
@@ -602,6 +612,7 @@ module.exports = function() {
              image: {
                src: '19-creion-ceara.png'
              },
+             solutionBorder: true,
              sourceAnchors: ["BottomCenter"],
              targetAnchors: []
            },
@@ -616,6 +627,7 @@ module.exports = function() {
              image: {
                src: '19-penar.png'
              },
+             solutionBorder: true,
              sourceAnchors: ["BottomCenter"],
              targetAnchors: []
            },
@@ -630,6 +642,7 @@ module.exports = function() {
              image: {
                src: '19-guma-sters.png'
              },
+             solutionBorder: true,
              sourceAnchors: ["BottomCenter"],
              targetAnchors: []
            },
@@ -644,6 +657,7 @@ module.exports = function() {
              image: {
                src: '19-carte.png'
              },
+             solutionBorder: true,
              sourceAnchors: ["BottomCenter"],
              targetAnchors: []
            },
@@ -658,9 +672,9 @@ module.exports = function() {
              image: {
                src: '19-nick.png'
              },
-             solution: ["pix, guma-sters, creion-ceara"],
+             solution: ["pix", "guma-sters", "creion-ceara"],
              sourceAnchors: [],
-             targetAnchors: ["RightMiddle"]
+             targetAnchors: ["LeftMiddle"]
            },
            {
              identifier: 'marion',
@@ -673,9 +687,9 @@ module.exports = function() {
              image: {
                src: '19-marion.png'
              },
-             solution: ["creion, penar, carte"],
+             solution: ["creion", "penar", "carte"],
              sourceAnchors: [],
-             targetAnchors: ["LeftMiddle"]
+             targetAnchors: ["RightMiddle"]
            }
          ]
        }
@@ -796,7 +810,7 @@ module.exports = function() {
         {
           image: 'pg22ex7',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1102,7 +1116,7 @@ module.exports = function() {
         {
           image: 'pg25static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1118,7 +1132,7 @@ module.exports = function() {
         {
           image: 'pg25static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1134,7 +1148,7 @@ module.exports = function() {
         {
           image: 'pg25static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1154,7 +1168,7 @@ module.exports = function() {
         {
           image: 'pg26static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1170,7 +1184,7 @@ module.exports = function() {
         {
           image: 'pg26static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1227,6 +1241,10 @@ module.exports = function() {
           type: 'checker',
           title: 'HÖR ZU UND MAL AUS!',
           image: 'pg29ex3',
+          audio: {
+            source: 'pg29ex3',
+            state: 'stopped'
+          },
           trigger: {
             button: {
               top: '12%'
@@ -1414,7 +1432,7 @@ module.exports = function() {
         {
           image: 'pg31ex6',
           audio: {
-            source: 'fundal1',
+            source: 'pg31ex6',
             state: 'stopped'
           },
           trigger: {
@@ -1486,7 +1504,7 @@ module.exports = function() {
         {
           image: 'pg32ichmag',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1517,6 +1535,228 @@ module.exports = function() {
         }
       ]
     },
+    '33': {
+     exercise: [
+       {
+          type: 'linker',
+          image: '02',
+          title: 'VERBINDE UND MAL AUS!',
+          trigger: {
+            button: {
+              top: '10%'
+            },
+            zone: {
+              top: '8%',
+              bottom: '5%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Uneste cuvintele care denumesc culori cu imaginea corespunzatoare si coloreaza cu culoarea indicata. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'verde',
+              style: {
+                top: '20%',
+                left: '15%',
+                width: '17%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '33-verde-colorat.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'roz',
+              style: {
+                top: '30%',
+                left: '15%',
+                width: '17%',
+                height: 'auto',
+                color: '#F49DC4'
+              },
+              image: {
+                src: '33-roz-colorat.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'galben',
+              style: {
+                top: '40%',
+                left: '15%',
+                width: '17%',
+                height: 'auto',
+                color: '#FCC641'
+              },
+              image: {
+                src: '33-galben-colorat.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'albastru',
+              style: {
+                top: '50%',
+                left: '15%',
+                width: '17%',
+                height: 'auto',
+                color: '#33BCF1'
+              },
+              image: {
+                src: '33-albastru-colorat.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'portocaliu',
+              style: {
+                top: '60%',
+                left: '15%',
+                width: '23%',
+                height: 'auto',
+                color: '#F7A04B'
+              },
+              image: {
+                src: '33-portocaliu-colorat.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'rosu',
+              style: {
+                top: '70%',
+                left: '15%',
+                width: '13%',
+                height: 'auto',
+                color: '#EF445F'
+              },
+              image: {
+                src: '33-rosu-colorat.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'soarele-banana-rata',
+              style: {
+                top: '5%',
+                left: '60%',
+                width: '30%',
+                height: 'auto'
+              },
+              image: {
+                src: '33-soarele-banana-rata.png'
+              },
+              solution: 'galben',
+              solutionImg: {
+                src: '33-soarele-banana-rata-colorat.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'cireasa-inima-focul',
+              style: {
+                top: '20%',
+                left: '60%',
+                width: '30%',
+                height: 'auto'
+              },
+              image: {
+                src: '33-cireasa-inima-focul.png'
+              },
+              solution: 'rosu',
+              solutionImg: {
+                src: '33-cireasa-inima-focul-colorat.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'iarba-broasca-bradul',
+              style: {
+                top: '35%',
+                left: '60%',
+                width: '30%',
+                height: 'auto'
+              },
+              image: {
+                src: '33-iarba-broasca-bradul.png'
+              },
+              solution: 'verde',
+              solutionImg: {
+                src: '33-iarba-broasca-bradul-colorat.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'morcovul-dovleacul',
+              style: {
+                top: '49%',
+                left: '60%',
+                width: '30%',
+                height: 'auto'
+              },
+              image: {
+                src: '33-morcovul-dovleacul.png'
+              },
+              solution: 'portocaliu',
+              solutionImg: {
+                src: '33-morcovul-dovleacul-colorat.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'trandafirul-purcelul-mana',
+              style: {
+                top: '64%',
+                left: '60%',
+                width: '30%',
+                height: 'auto'
+              },
+              image: {
+                src: '33-trandafirul-purcelul-mana.png'
+              },
+              solution: 'roz',
+              solutionImg: {
+                src: '33-trandafirul-purcelul-mana-colorat.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'apa-blugii-cerul',
+              style: {
+                top: '80%',
+                left: '60%',
+                width: '30%',
+                height: 'auto'
+              },
+              image: {
+                src: '33-apa-blugii-cerul.png'
+              },
+              solution: 'albastru',
+              solutionImg: {
+                src: '33-apa-blugii-cerul-colorat.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            }
+          ]
+        }
+      ]
+    },
     '34': {
       video: [
         {
@@ -1540,7 +1780,7 @@ module.exports = function() {
         {
           image: 'pg35static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1556,7 +1796,7 @@ module.exports = function() {
         {
           image: 'pg35static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1572,7 +1812,7 @@ module.exports = function() {
         {
           image: 'pg35static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1588,7 +1828,7 @@ module.exports = function() {
         {
           image: 'pg35static4',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1604,7 +1844,7 @@ module.exports = function() {
         {
           image: 'pg35static5',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1624,7 +1864,7 @@ module.exports = function() {
         {
           image: 'pg36static1',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1640,7 +1880,7 @@ module.exports = function() {
         {
           image: 'pg36static2',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1656,7 +1896,7 @@ module.exports = function() {
         {
           image: 'pg36static3',
           audio: {
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1718,6 +1958,199 @@ module.exports = function() {
               bottom: '9%'
             }
           }
+        }
+      ]
+    },
+    '39': {
+     exercise: [
+       {
+          type: 'linker',
+          image: '02',
+          title: 'HÖR ZU UND VERBINDE!',
+          audio: {
+            source: 'pg39ex4',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '10%'
+            },
+            zone: {
+              top: '8%',
+              bottom: '5%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'ASCULTA SI UNESTE PERSONAJUL CU OBIECTUL INDICAT. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'bert',
+              style: {
+                top: '7%',
+                left: '10%',
+                width: '25%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '39-bert.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'julia',
+              style: {
+                top: '24%',
+                left: '10%',
+                width: '25%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '39-julia.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'erik',
+              style: {
+                top: '41%',
+                left: '10%',
+                width: '25%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '39-erik.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'nick',
+              style: {
+                top: '60%',
+                left: '10%',
+                width: '25%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '39-nick.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'marion',
+              style: {
+                top: '77%',
+                left: '10%',
+                width: '25%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '39-marion.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'masina',
+              style: {
+                top: '10%',
+                left: '65%',
+                width: '20%',
+                height: 'auto'
+              },
+              image: {
+                src: '39-masina.png'
+              },
+              solution: 'julia',
+              solutionImg: {
+                src: '39-masina.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'minge',
+              style: {
+                top: '26%',
+                left: '68%',
+                width: '15%',
+                height: 'auto'
+              },
+              image: {
+                src: '39-minge.png'
+              },
+              solution: 'bert',
+              solutionImg: {
+                src: '39-minge.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'avion',
+              style: {
+                top: '41%',
+                left: '67.5%',
+                width: '16%',
+                height: 'auto'
+              },
+              image: {
+                src: '39-avion.png'
+              },
+              solution: 'nick',
+              solutionImg: {
+                src: '39-avion.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'papusa',
+              style: {
+                top: '57%',
+                left: '68%',
+                width: '15%',
+                height: 'auto'
+              },
+              image: {
+                src: '39-papusa.png'
+              },
+              solution: 'marion',
+              solutionImg: {
+                src: '39-papusa.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'trenulet',
+              style: {
+                top: '73%',
+                left: '66%',
+                width: '20%',
+                height: 'auto'
+              },
+              image: {
+                src: '39-trenulet.png'
+              },
+              solution: 'erik',
+              solutionImg: {
+                src: '39-trenulet.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            }
+          ]
         }
       ]
     },
@@ -1851,7 +2284,7 @@ module.exports = function() {
           image: 'pg42ichhabe',
           audio: {
             // change me
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1882,13 +2315,235 @@ module.exports = function() {
         }
       ]
     },
+    '43': {
+     exercise: [
+       {
+          type: 'linker',
+          image: '02',
+          title: 'VERBINDE UND MAL AUS!',
+          trigger: {
+            button: {
+              top: '10%'
+            },
+            zone: {
+              top: '8%',
+              bottom: '5%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'UNESTE PARTILE CORESPUNZATOARE SI COLOREAZA JUCARIA DUPA CULOAREA CORESPUNZATOARE. Cand ai terminatapasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'avion-fata',
+              style: {
+                top: '7%',
+                left: '10%',
+                width: '30%',
+                height: 'auto',
+                color: '#8bcb6a'
+              },
+              image: {
+                src: '43-avion-fata-colorat.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'masina-fata',
+              style: {
+                top: '21%',
+                left: '13%',
+                width: '25%',
+                height: 'auto',
+                color: '#33bcf1'
+              },
+              image: {
+                src: '43-masina-fata-colorat.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'tren-fata',
+              style: {
+                top: '36%',
+                left: '11%',
+                width: '28%',
+                height: 'auto',
+                color: '#ef445f'
+              },
+              image: {
+                src: '43-tren-fata-colorat.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'minge-fata',
+              style: {
+                top: '50%',
+                left: '16%',
+                width: '19%',
+                height: 'auto',
+                color: '#fcc641'
+              },
+              image: {
+                src: '43-minge-fata-colorata.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'ursulet-fata',
+              style: {
+                top: '65%',
+                left: '15.5%',
+                width: '20%',
+                height: 'auto',
+                color: '#874a38'
+              },
+              image: {
+                src: '43-ursulet-fata-colorat.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'papusa-fata',
+              style: {
+                top: '80%',
+                left: '15.5%',
+                width: '20%',
+                height: 'auto',
+                color: '#f49dc4'
+              },
+              image: {
+                src: '43-papusa-fata-colorat.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'tren-spate',
+              style: {
+                top: '7%',
+                left: '65%',
+                width: '30%',
+                height: 'auto'
+              },
+              image: {
+                src: '43-tren-spate.png'
+              },
+              solution: 'tren-fata',
+              solutionImg: {
+                src: '43-tren-spate-colorat.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'avion-spate',
+              style: {
+                top: '19%',
+                left: '68%',
+                width: '25%',
+                height: 'auto'
+              },
+              image: {
+                src: '43-avion-spate.png'
+              },
+              solution: 'avion-fata',
+              solutionImg: {
+                src: '43-avion-spate-colorat.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'ursulet-spate',
+              style: {
+                top: '34%',
+                left: '72%',
+                width: '18%',
+                height: 'auto'
+              },
+              image: {
+                src: '43-ursulet-spate.png'
+              },
+              solution: 'ursulet-fata',
+              solutionImg: {
+                src: '43-ursulet-spate-colorat.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'masina-spate',
+              style: {
+                top: '48%',
+                left: '70.5%',
+                width: '21%',
+                height: 'auto'
+              },
+              image: {
+                src: '43-masina-spate.png'
+              },
+              solution: 'masina-fata',
+              solutionImg: {
+                src: '43-masina-spate-colorat.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'papusa-spate',
+              style: {
+                top: '63%',
+                left: '71.5%',
+                width: '19%',
+                height: 'auto'
+              },
+              image: {
+                src: '43-papusa-spate.png'
+              },
+              solution: 'papusa-fata',
+              solutionImg: {
+                src: '43-papusa-spate-colorat.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'minge-spate',
+              style: {
+                top: '78%',
+                left: '72%',
+                width: '18%',
+                height: 'auto'
+              },
+              image: {
+                src: '43-minge-spate.png'
+              },
+              solution: 'minge-fata',
+              solutionImg: {
+                src: '43-minge-spate-colorat.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            }
+          ]
+        }
+      ]
+    },
     '44': {
       static: [
         {
           image: 'pg44ex2static1',
           audio: {
             // change me
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1907,7 +2562,7 @@ module.exports = function() {
           image: 'pg44ex2static2',
           audio: {
             // change me
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1926,7 +2581,7 @@ module.exports = function() {
           image: 'pg44ex2static3',
           audio: {
             // change me
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1945,7 +2600,7 @@ module.exports = function() {
           image: 'pg44ex2static4',
           audio: {
             // change me
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1964,7 +2619,7 @@ module.exports = function() {
           image: 'pg44ex2static5',
           audio: {
             // change me
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -1983,7 +2638,7 @@ module.exports = function() {
           image: 'pg44ex2static6',
           audio: {
             // change me
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -2022,7 +2677,7 @@ module.exports = function() {
           image: 'pg45static1',
           audio: {
             // change me
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -2039,7 +2694,7 @@ module.exports = function() {
           image: 'pg45static2',
           audio: {
             // change me
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -2056,7 +2711,7 @@ module.exports = function() {
           image: 'pg45static3',
           audio: {
             // change me
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -2073,7 +2728,7 @@ module.exports = function() {
           image: 'pg45static4',
           audio: {
             // change me
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -2094,7 +2749,7 @@ module.exports = function() {
           image: 'pg46static1',
           audio: {
             // change me
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -2111,7 +2766,7 @@ module.exports = function() {
           image: 'pg46static2',
           audio: {
             // change me
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -2128,7 +2783,7 @@ module.exports = function() {
           image: 'pg46static3',
           audio: {
             // change me
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -2181,7 +2836,7 @@ module.exports = function() {
           image: 'pg48nikolaustag',
           audio: {
             // change me
-            source: 'fundal1',
+            source: 'fundal',
             state: 'stopped'
           },
           trigger: {
@@ -2250,6 +2905,159 @@ module.exports = function() {
     },
     '51': {
       exercise: [
+        {
+           type: 'linker',
+           image: '02',
+           title: 'VERBINDE!',
+           trigger: {
+             button: {
+               top: '10%'
+             },
+             zone: {
+               top: '9%',
+               bottom: '40%'
+             }
+           },
+           help: {
+             toggle: false,
+             text: 'UNESTE TEXTUL CU IMAGINEA CARE SE POTRIVESTE. Cand ai terminat apasape cheita si verifica. Succes!'
+           },
+           data: [
+             {
+               identifier: 'dimineata',
+               style: {
+                 top: '12%',
+                 left: '5%',
+                 width: '25%',
+                 height: 'auto'
+               },
+               image: {
+                 src: '51-dimineata.png'
+               },
+               solution: 'guten-morgen',
+               solutionImg: {
+                 src: '51-dimineata.png'
+               },
+               sourceAnchors: [],
+               targetAnchors: ["RightMiddle"]
+             },
+             {
+               identifier: 'ziua',
+               style: {
+                 top: '50%',
+                 left: '5%',
+                 width: '25%',
+                 height: 'auto'
+               },
+               image: {
+                 src: '51-ziua.png'
+               },
+               solution: 'guten-tag',
+               solutionImg: {
+                 src: '51-ziua.png'
+               },
+               sourceAnchors: [],
+               targetAnchors: ["RightMiddle"]
+             },
+             {
+               identifier: 'guten-morgen',
+               style: {
+                 top: '24%',
+                 left: '35%',
+                 width: '30%',
+                 height: 'auto',
+                 color: '#8bcb6a'
+               },
+               image: {
+                 src: '51-guten-morgen.png'
+               },
+               sourceAnchors: ["LeftMiddle","RightMiddle"],
+               targetAnchors: []
+             },
+             {
+               identifier: 'guten-tag',
+               style: {
+                 top: '35%',
+                 left: '38.5%',
+                 width: '22%',
+                 height: 'auto',
+                 color: '#8bcb6a'
+               },
+               image: {
+                 src: '51-guten-tag.png'
+               },
+               sourceAnchors: ["LeftMiddle","RightMiddle"],
+               targetAnchors: []
+             },
+             {
+               identifier: 'guten-abend',
+               style: {
+                 top: '46%',
+                 left: '36.5%',
+                 width: '27%',
+                 height: 'auto',
+                 color: '#8bcb6a'
+               },
+               image: {
+                 src: '51-guten-abend.png'
+               },
+               sourceAnchors: ["LeftMiddle","RightMiddle"],
+               targetAnchors: []
+             },
+             {
+               identifier: 'guten-nacht',
+               style: {
+                 top: '57%',
+                 left: '37%',
+                 width: '25%',
+                 height: 'auto',
+                 color: '#8bcb6a'
+               },
+               image: {
+                 src: '51-guten-nacht.png'
+               },
+               sourceAnchors: ["LeftMiddle","RightMiddle"],
+               targetAnchors: []
+             },
+             {
+               identifier: 'noaptea',
+               style: {
+                 top: '12%',
+                 left: '70%',
+                 width: '25%',
+                 height: 'auto'
+               },
+               image: {
+                 src: '51-noaptea.png'
+               },
+               solution: 'guten-nacht',
+               solutionImg: {
+                 src: '51-noaptea.png'
+               },
+               sourceAnchors: [],
+               targetAnchors: ["LeftMiddle"]
+             },
+             {
+               identifier: 'seara',
+               style: {
+                 top: '50%',
+                 left: '70%',
+                 width: '25%',
+                 height: 'auto',
+                 color: '#8bcb6a'
+               },
+               image: {
+                 src: '51-seara.png'
+               },
+               solution: 'guten-abend',
+               solutionImg: {
+                 src: '51-seara.png'
+               },
+               sourceAnchors: [],
+               targetAnchors: ["LeftMiddle"]
+             }
+           ]
+        },
         {
           type: 'picker',
           title: 'WAS PASST NICHT?',
@@ -2344,7 +3152,7 @@ module.exports = function() {
             text: 'LITERELE S-AU AMESTECAT. GASESTE CUVANTUL CORESPUNZATOR UNEI CULORI SI COLOREAZA IMAGINEA POTRIVITA. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           // audio: {
-          //   source: 'fundal1',
+          //   source: 'fundal',
           //   state: 'stopped'
           // },
           data: [
