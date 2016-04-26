@@ -394,22 +394,6 @@ module.exports = function() {
           }
         },
         {
-          image: 'pg15static1',
-          audio: {
-            source: 'fundal',
-            state: 'stopped'
-          },
-          trigger: {
-            button: {
-              top: '81%'
-            },
-            zone: {
-              top: '81%',
-              bottom: '13%'
-            }
-          }
-        },
-        {
           image: 'pg15static2',
           audio: {
             source: 'fundal',
@@ -422,22 +406,6 @@ module.exports = function() {
             zone: {
               top: '44%',
               bottom: '31%'
-            }
-          }
-        },
-        {
-          image: 'pg15static2',
-          audio: {
-            source: 'fundal',
-            state: 'stopped'
-          },
-          trigger: {
-            button: {
-              top: '89%'
-            },
-            zone: {
-              top: '89%',
-              bottom: '4%'
             }
           }
         },
@@ -718,7 +686,7 @@ module.exports = function() {
         {
           image: 'pg21static2',
           audio: {
-            source: 'pg21ex6',
+            source: 'penar',
             state: 'stopped'
           },
           trigger: {
@@ -736,7 +704,7 @@ module.exports = function() {
         {
           image: 'pg21static4',
           audio: {
-            source: 'pg21ex6',
+            source: 'guma',
             state: 'stopped'
           },
           trigger: {
@@ -754,7 +722,7 @@ module.exports = function() {
         {
           image: 'pg21static1',
           audio: {
-            source: 'pg21ex6',
+            source: 'ghiozdan',
             state: 'stopped'
           },
           trigger: {
@@ -772,7 +740,7 @@ module.exports = function() {
         {
           image: 'pg21static3',
           audio: {
-            source: 'pg21ex6',
+            source: 'creion',
             state: 'stopped'
           },
           trigger: {
@@ -1451,6 +1419,10 @@ module.exports = function() {
           type: 'painter',
           title: 'HÖR ZU UND ZEICHNE!',
           image: 'pg31ex7',
+          audio: {
+            source: 'pg31ex7',
+            state: 'stopped'
+          },
           trigger: {
             button: {
               top: '42%'
