@@ -3045,7 +3045,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: '(lipsa excel)'
+            text: 'INCERCUIESTE CUVANTUL CARE SE POTRIVESTE IN SIRUL DE CUVINTE. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
