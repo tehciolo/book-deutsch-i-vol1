@@ -1,5 +1,90 @@
 module.exports = function() {
   return {
+    '04': {
+      toc: [
+        {
+          route: '04-05',
+          trigger: {
+              top: '19%',
+              bottom: '76%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '16-17',
+          trigger: {
+              top: '25%',
+              bottom: '70%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '26-27',
+          trigger: {
+              top: '31%',
+              bottom: '64%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '36-37',
+          trigger: {
+              top: '37%',
+              bottom: '58%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '46-47',
+          trigger: {
+              top: '43%',
+              bottom: '52%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '48-49',
+          trigger: {
+              top: '49%',
+              bottom: '46%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '48-49',
+          trigger: {
+              top: '55%',
+              bottom: '40%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '50-51',
+          trigger: {
+              top: '61%',
+              bottom: '34%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '52-53',
+          trigger: {
+              top: '67%',
+              bottom: '28%',
+              left: '8%',
+              width: '64%'
+          }
+        }
+      ]
+    },
     '05': {
       video: [
         {
