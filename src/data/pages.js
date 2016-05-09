@@ -191,6 +191,7 @@ module.exports = function() {
                 height: '15.5%'
               },
               answer: {
+                top: '0%',
                 left: '22%'
               }
             },
@@ -204,6 +205,7 @@ module.exports = function() {
                 height: '15.5%'
               },
               answer: {
+                top: '0%',
                 left: '65%'
               }
             },
@@ -217,6 +219,7 @@ module.exports = function() {
                 height: '15.5%'
               },
               answer: {
+                top: '0%',
                 left: '27%'
               }
             }
@@ -3143,7 +3146,8 @@ module.exports = function() {
                 height: '6.5%'
               },
               answer: {
-                left: '74.5%'
+                left: '75.5%',
+                width: '25%'
               }
             },
             {
@@ -3156,7 +3160,8 @@ module.exports = function() {
                 height: '6.5%'
               },
               answer: {
-                left: '37.5%'
+                left: '37.5%',
+                width: '17%'
               }
             },
             {
@@ -3169,7 +3174,8 @@ module.exports = function() {
                 height: '6.5%'
               },
               answer: {
-                left: '34.5%'
+                left: '24.5%',
+                width: '38%'
               }
             },
             {
@@ -3182,7 +3188,8 @@ module.exports = function() {
                 height: '6.5%'
               },
               answer: {
-                left: '65.5%'
+                left: '65.5%',
+                width: '29%'
               }
             }
           ]
