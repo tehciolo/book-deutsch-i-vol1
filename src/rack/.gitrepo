@@ -6,6 +6,6 @@
 [subrepo]
 	remote = git@github.com:tehciolo/bookrack.git
 	branch = master
-	commit = 59c0570ab760ca3c0cf1aa6cbb06824911650130
-	parent = 25c43bce2b13dcdae52e52a80cc174bf9cccc44a
+	commit = 312ee4f364535be7ccba0a5ded2288b719d31eb7
+	parent = 36a1a691df076ffb3ee9599673f5bd7df57c0394
 	cmdver = 0.3.0
