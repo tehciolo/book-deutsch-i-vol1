@@ -3215,10 +3215,6 @@ module.exports = function() {
             toggle: false,
             text: 'LITERELE S-AU AMESTECAT. GASESTE CUVANTUL CORESPUNZATOR UNEI CULORI SI COLOREAZA IMAGINEA POTRIVITA. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
-          // audio: {
-          //   source: 'fundal',
-          //   state: 'stopped'
-          // },
           data: [
             {
               identifier: 'one',
@@ -3228,7 +3224,16 @@ module.exports = function() {
                 width: '25%'
               },
               model: '',
-              solution: 'GELB'
+              solution: 'GELB',
+              validation: {
+                pre: 'pg52ex3gelbpre',
+                post: 'pg52ex3gelbpost',
+                position: {
+                  top: '20%',
+                  left: '20%',
+                  width: '20%'
+                }
+              }
             },
             {
               identifier: 'two',
