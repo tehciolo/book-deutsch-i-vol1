@@ -3295,7 +3295,7 @@ module.exports = function() {
           ]
         },
         {
-          type: 'type',
+          type: 'typer',
           title: 'RECHNE!',
           image: 'pg52ex4',
           trigger: {
@@ -3309,52 +3309,48 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'INLOCUIESTE CUVANTUL CU NUMARUL CORESPUNZATOR SI CALCULEAZA. SCRIE REZULTATUL. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'CALCULEAZA SI SCRIE REZULTATUL. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
               identifier: 'one',
               position: {
-                top: '36.5%',
-                left: '55.8%',
-                width: '5.1%',
-                height: '4%'
+                top: '37.5%',
+                left: '54.8%',
+                width: '15%'
               },
               model: '',
-              solution: '6'
+              solution: 'SECHS'
             },
             {
               identifier: 'two',
               position: {
-                top: '44%',
-                left: '55.2%',
-                width: '5.1%',
-                height: '4%'
+                top: '45%',
+                left: '54.2%',
+                width: '15%'
               },
               model: '',
-              solution: '4'
+              solution: 'VIER'
             },
             {
               identifier: 'three',
               position: {
-                top: '51%',
+                top: '52%',
                 left: '66.3%',
-                width: '5.1%',
-                height: '4%'
+                width: '15%',
               },
               model: '',
-              solution: '4'
+              solution: 'VIER'
             },
             {
               identifier: 'four',
               position: {
-                top: '58%',
+                top: '59%',
                 left: '64.8%',
-                width: '5.1%',
-                height: '4%'
+                width: '15%'
               },
               model: '',
-              solution: '1'
+              solution: 'EINS'
             }
           ]
         }
