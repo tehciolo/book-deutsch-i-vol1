@@ -728,7 +728,7 @@ module.exports = function() {
              image: {
                src: '19-nick.png'
              },
-             solution: ["pix", "guma-sters", "creion-ceara"],
+             solution: ["creion", "penar", "carte"],
              sourceAnchors: [],
              targetAnchors: ["LeftMiddle"]
            },
@@ -743,7 +743,7 @@ module.exports = function() {
              image: {
                src: '19-marion.png'
              },
-             solution: ["creion", "penar", "carte"],
+             solution: ["pix", "guma-sters", "creion-ceara"],
              sourceAnchors: [],
              targetAnchors: ["RightMiddle"]
            }
@@ -1612,7 +1612,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Uneste cuvintele care denumesc culori cu imaginea corespunzatoare si coloreaza cu culoarea indicata. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'UNESTE CUVINTELE CARE DENUMESC CULORI CU IMAGINEA CORESPUNZATOARE SI COLOREAZA CU CULOAREA INDICATA. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -2392,7 +2392,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'UNESTE PARTILE CORESPUNZATOARE SI COLOREAZA JUCARIA DUPA CULOAREA CORESPUNZATOARE. Cand ai terminatapasa pe cheita si verifica. Succes!'
+            text: 'UNESTE OBIECTELE CORESPUNZATOARE SI COLOREAZA JUCARIA FOLOSIND CULOAREA CORESPUNZATOARE. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -3133,7 +3133,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'INCERCUIESTE CUVANTUL CARE SE POTRIVESTE IN SIRUL DE CUVINTE. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'INCERCUIESTE CUVANTUL CARE NU SE POTRIVESTE IN SIRUL DE CUVINTE. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
