@@ -3229,8 +3229,8 @@ module.exports = function() {
                 pre: 'pg52ex3gelbpre',
                 post: 'pg52ex3gelbpost',
                 position: {
-                  top: '20%',
-                  left: '20%',
+                  top: '25%',
+                  left: '74%',
                   width: '20%'
                 }
               }
@@ -3243,7 +3243,16 @@ module.exports = function() {
                 width: '25%'
               },
               model: '',
-              solution: 'BLAU'
+              solution: 'BLAU',
+              validation: {
+                pre: 'pg52ex3blaupre',
+                post: 'pg52ex3blaupost',
+                position: {
+                  top: '60%',
+                  left: '7%',
+                  width: '20%'
+                }
+              }
             },
             {
               identifier: 'three',
@@ -3253,7 +3262,16 @@ module.exports = function() {
                 width: '25%'
               },
               model: '',
-              solution: 'GRÜN'
+              solution: 'GRÜN',
+              validation: {
+                pre: 'pg52ex3grunpre',
+                post: 'pg52ex3grunpost',
+                position: {
+                  top: '25%',
+                  left: '7%',
+                  width: '20%'
+                }
+              }
             },
             {
               identifier: 'four',
@@ -3263,7 +3281,16 @@ module.exports = function() {
                 width: '25%'
               },
               model: '',
-              solution: 'ROSA'
+              solution: 'ROSA',
+              validation: {
+                pre: 'pg52ex3rosapre',
+                post: 'pg52ex3rosapost',
+                position: {
+                  top: '58%',
+                  left: '74%',
+                  width: '20%'
+                }
+              }
             }
           ]
         },
