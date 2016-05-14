@@ -2980,7 +2980,7 @@ module.exports = function() {
            },
            help: {
              toggle: false,
-             text: 'UNESTE TEXTUL CU IMAGINEA CARE SE POTRIVESTE. Cand ai terminat apasape cheita si verifica. Succes!'
+             text: 'UNESTE TEXTUL CU IMAGINEA CARE SE POTRIVESTE. Cand ai terminat apasa pe cheita si verifica. Succes!'
            },
            data: [
              {
